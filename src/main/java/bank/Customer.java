@@ -7,13 +7,13 @@ public class Customer {
   private String password;
   private int accountId;
 
-  public Customer(int id, String name, String username, String password, int i) {
+  public Customer(int id, String name, String username, String password, int accountId) {
     setId(id);
     setName(name);
     setAccountId(id);
     setUserName(username);
     setPassword(password);
-    setAccountId(id);
+    setAccountId(accountId);
   }
 
   public int getId() {
